@@ -12,7 +12,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 300 * 1024 * 1024
 
-BASE_URL = os.environ.get("BASE_URL", "https://ipa-installer.onrender.com")
+BASE_URL = os.environ.get("BASE_URL", "https://ipa-w72w.onrender.com/")
 
 def extract_info_plist(ipa_path):
     try:
